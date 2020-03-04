@@ -12,10 +12,10 @@ namespace LoginProject
             if (UInput == "Register")
 
             {
-                Console.WriteLine("Type in username");
+                Console.WriteLine("Type in username no spaces, or it won't work");
                 string username;
                 username = Console.ReadLine();
-                Console.WriteLine("Type in password");
+                Console.WriteLine("Type in password no spaces, no spaces or it won't work");
                 string password;
                 password = Console.ReadLine();
 
